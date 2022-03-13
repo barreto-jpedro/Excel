@@ -1,0 +1,67 @@
+{
+    "products": [
+        {
+            "name": "Iogurte",
+            "id": 1,
+            "unit_price": 2.79
+        },
+        {
+            "name": "Melão",
+            "id": 2,
+            "unit_price": 1.89,
+            "weight": true,
+            "measure": "g",
+            "measure_quantity": 100
+        },
+        {
+            "name": "Melancia",
+            "id": 3,
+            "unit_price": 2.99,
+            "weight": true,
+            "measure": "kg",
+            "measure_quantity": 1
+        },
+        {
+            "name": "Sorvete",
+            "id": 4,
+            "unit_price": 18.99
+        },
+        {
+            "name": "Bombom",
+            "id": 5,
+            "unit_price": 0.99
+        },
+        {
+            "name": "Coca-Cola",
+            "id": 6,
+            "unit_price": 9.59
+        }
+    ],
+    "bill": [
+        {
+            "id": 1,
+            "items": [
+                {
+                    "id": 1,
+                    "quantity": 12
+                },
+                {
+                    "id": 3,
+                    "quantity": 9.76
+                },
+                {
+                    "id": 4,
+                    "quantity": 1
+                },
+                {
+                    "id": 5,
+                    "quantity": 6
+                },
+                {
+                    "id": 6,
+                    "quantity": 4
+                }
+            ]
+        }
+    ]
+}
