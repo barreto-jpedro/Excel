@@ -1,6 +1,6 @@
 import json
 
-
+ 
 def read_database(path: str) -> dict:
     try:
         with open(path, "r") as json_file:
